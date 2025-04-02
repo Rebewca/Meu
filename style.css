@@ -1,0 +1,122 @@
+/* Reset de estilos básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f4f4f4;
+  color: #000000;
+  line-height: 1.8;
+}
+
+h1, p {
+  margin-bottom: 20px;
+}
+
+/* Menu de navegação */
+.nav-menu {
+  background-color: #7c7979;
+  padding: 30px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-link.active {
+  color: #020202; /* Cor destacada para o item ativo */
+}
+
+.nav-link:hover {
+  color: #e4e4e4; /* Cor ao passar o mouse */
+}
+
+/* Seção principal (Home) */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #718dad;
+  color: #0c1629;
+  padding: 50px;
+  text-align: center;
+}
+
+.home-text {
+  max-width: 500px;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #000000;
+  color: #e7e7e7;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #4b312b;
+}
+
+/* Container de texto adicional */
+.text-container {
+  background-color: #cacaca;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 10px;
+  color: #868181;
+}
+
+/* Responsividade */
+@media (max-width: 764px) {
+  .home {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .home-text {
+      margin-bottom: 20px;
+  }
+
+  .button {
+      font-size: 16px;
+  }
+}
+
+img{
+  text-align: center; 
+}
