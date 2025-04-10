@@ -122,3 +122,48 @@ img {
   margin: 0 auto;
   padding: 10px;
 }
+
+.faqs {
+  padding: 60px 0;
+  background-color: #666565;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.faqs h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.faqs dl {
+  margin-top: 20px;
+}
+
+.faqs dt {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #007bff;
+  cursor: pointer; /* Indica que a pergunta pode ser interativa */
+}
+
+.faqs dd {
+  padding-left: 20px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Estilo inicial para esconder as respostas (para interação com JS) */
+.faqs dd {
+  display: none;
+}
+
+/* Estilo para mostrar a resposta quando a pergunta estiver ativa */
+.faqs dt.active + dd {
+  display: block;
+}
