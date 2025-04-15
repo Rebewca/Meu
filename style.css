@@ -125,7 +125,7 @@ img {
 
 .faqs {
   padding: 60px 0;
-  background-color: #666565;
+  background-color: #3d3c3c;
 }
 
 .container {
@@ -137,7 +137,7 @@ img {
 .faqs h2 {
   text-align: center;
   margin-bottom: 30px;
-  color: #333;
+  color: #ffffff;
 }
 
 .faqs dl {
@@ -155,7 +155,7 @@ img {
 .faqs dd {
   padding-left: 20px;
   margin-bottom: 15px;
-  color: #555;
+  color: #ffffff;
 }
 
 /* Estilo inicial para esconder as respostas (para interação com JS) */
